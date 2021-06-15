@@ -1,2 +1,14 @@
 APP:
-  DEBUG: True
+  DEBUG: true
+  FEEDBACK_INTERVAL: 500
+  NUM_THREADS: 15
+PROTOCOLS:
+  - TCP
+  # - UDP
+PORTS:
+  TESTING_IP: 52.47.209.216
+  TIMEOUT_S: 3
+FILES:
+  INPUT: ports.json
+  OUTPUT: ports.tested.json
+  OPEN: ports.open.%PROTO%.json
