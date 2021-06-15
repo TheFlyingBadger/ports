@@ -1,2 +1,2 @@
-# template-python
-Python template repo
+# Ports
+Test which ports are available to connect to
