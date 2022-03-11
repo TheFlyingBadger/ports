@@ -6,7 +6,7 @@ PROTOCOLS:
   - TCP
   # - UDP
 PORTS:
-  TESTING_IP: 52.47.209.216
+  TESTING_IP: portquiz.net
   TIMEOUT_S: 3
 FILES:
   INPUT: ports.json
